@@ -7,7 +7,7 @@ import { Button, OutlineButton } from "../styled/Button";
 import Rules from "./Rules";
 
 const GamePlay = () => {
-  const [score, setScore] = useState(0);
+  const [score, setScore] = useState(0);  // for count total score
   const [selectedNumber, setSelectedNumber] = useState();
   const [currentDice, setCurrentDice] = useState(1);
   const [error, setError] = useState("");
